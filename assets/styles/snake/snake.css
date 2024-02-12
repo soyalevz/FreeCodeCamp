@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+}
+
+#board,
+.boardInfo {
+    max-width: 500px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#start,
+.boardInfo {
+    font-size: 25px;
+    
+}
+
+#gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#start {
+    background-color: #f35a69;
+    border: none;
+    color: #fff;
+}
+
+#scoreBoard {
+    display: inline-flex;
+}
+
+.square {
+    width: 100px;
+    height: 50px;
+} 
+
+.emptySquare {
+    background-color: #456990;
+}
+
+.snakeSquare {
+    background-color: #ccf47f;
+}
+
+.foodSquare {
+    background-color: #f35a69;
+}

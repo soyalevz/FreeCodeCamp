@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="content" />
+    <link rel="stylesheet" href="assets/styles/cuestonario.css" />
+    <title>Question</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+        alt="logo"
+        id="logo"
+      />
+      <h1>HTML/CSS Quiz</h1>
+      <nav>
+        <ul>
+          <li><a href="#student-info">INFO</a></li>
+          <li><a href="#html-questions">HTML</a></li>
+          <li><a href="#css-questions">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+			<form action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+				<section role="region" aria-labelledby="student-info">
+					<h2 id="student-info">Student Info</h2>
+					<div class="info">
+            <label for="student-name">Name:</label>
+            <input id="student-name" name="studen-name" type="text" />
+          </div>
+          <div class="info">
+            <label for="student-email">Email:</label>
+            <input id="student-email" name="student-email" type="email" placeholder="email"/>
+          </div>
+          <div class="info">
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth) </span>
+						</label>
+            <input id="birth-date" name="birth-date" type="date" placeholder="birth-date" />
+          </div>
+				</section>
+				<section role="region" aria-labelledby="html-questions">
+					<h2 id="html-questions">HTML Questions</h2>
+          <div class="question-block">
+            <p>
+              1
+              <fieldset name="one" class="question">
+                <legend>
+                  One
+                </legend>
+                <ul class="answer-list">
+                 <li>
+                  <label for="q1-a1">
+                    <input id="q1-a1" type="radio" name="html">
+                    True
+                  </label>
+                 </li>
+                  <li>
+                    <label for="q1-a2">
+                      <input id="q1-a2" name="html" type="radio">
+                      False
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+            </p>
+          </div>
+          <div class="question-block">
+            <p>
+              2
+              <fieldset class="question">
+                <legend>Two</legend>
+                <ul class="answer-list">
+                  <li><label for="q2-a1">
+                    <input id="q2-a1" name="html-2"   type="radio">
+                    True
+                  </label></li>
+                  <li>
+                    <label for="q2-a2">
+                      <input id=" q2-a2" name="html-2" type="radio">
+                      False
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+            </p>
+          </div>
+				</section>
+				<section role="region" aria-labelledby="css-questions">
+					<h2 id="css-questions">CSS Questions</h2>
+          <div class="formrow">
+            <div class="question-block">
+              <label for="question">Are you a frontend developer?</label>
+            </div>
+            <div class="answer">
+              <select id="question" name="question" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="question-block">
+              <label for="answer">Do you have any questions:</label>
+            </div>
+            <div class="answer">
+              <textarea name="answer" id="answer" cols="30" rows="10" placeholder="who is flexbox"></textarea>
+            </div>
+          </div>
+				</section>
+        <button input type="submit">Send</button>
+			</form>
+		</main>
+    <footer>
+      <address>
+       <a href="https://freecodecamp.org">freeCodeCamp</a> <br />
+        San Francisco<br />
+        California<br />
+        USA
+      </address>
+    </footer>
+  </body>
+</html>

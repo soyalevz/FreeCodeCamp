@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/encuesta.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 id="title">Avatar</h1>
+      <div class="image">
+        <img
+          src="https://e1.pxfuel.com/desktop-wallpaper/930/837/desktop-wallpaper-banner-of-the-fire-nation-pre-order-fire-nation-logo.jpg"
+          alt="nación del fuego"
+        />
+      </div>
+    </header>
+    <main class="container">
+      <article class="hero-image">
+        <div>
+          <h2>Nación del fuego</h2>
+        </div>
+      </article>
+      <section class="container-description">
+        <article class="flex-description">
+          <h2>Iroh</h2>
+          <p id="description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Exercitationem labore rem eveniet, assumenda at tempore minus, esse
+            nemo, amet quo qui corrupti non quisquam temporibus? Omnis a dolorum
+            vel architecto.
+          </p>
+        </article>
+        <article class="flex-article">
+          <img
+            src="https://i.pinimg.com/564x/68/97/2c/68972c8d2e362b15ce71ae34eb29c5e2.jpg"
+            alt="iroh"
+          />
+        </article>
+      </section>
+      <section class="container-description">
+        <article class="flex-description">
+          <h2>Iroh</h2>
+          <p id="description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Exercitationem labore rem eveniet, assumenda at tempore minus, esse
+            nemo, amet quo qui corrupti non quisquam temporibus? Omnis a dolorum
+            vel architecto.
+          </p>
+        </article>
+        <article class="flex-article">
+          <img
+            src="https://i.pinimg.com/564x/68/97/2c/68972c8d2e362b15ce71ae34eb29c5e2.jpg"
+            alt="iroh"
+          />
+        </article>
+      </section>
+
+      <section class="form">
+        <form action="GET" class="survey-form" id="survey-form">
+          <h2>Contáctenos</h2>
+          <label for="name-label">
+            Nombre:
+            <input type="text" id="name-label" id="name" placeholder="Ale" required />
+          </label>
+          <label for="email-label">
+            Email:
+            <input
+              type="email"
+              id="email-label"
+              id="email"
+              placeholder="tuemail@gmail.com" required
+            />
+          </label>
+          <label for="number-label">
+            Número:
+            <input type="number" id="number-label" max="10" min="1" placeholder="7" />
+          </label>
+          <label for="textarea">
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="20"
+              rows="10"
+              placeholder="comentarios"
+            ></textarea>
+          </label>
+
+          <label for="select">
+            Selecciona
+            <select name="" id="dropdown">
+              <option value="1">Opción 1</option>
+              <option value="2">Opción 2</option>
+            </select>
+          </label>
+
+          <label for="check"
+            >one
+            <input type="checkbox" name="check" value="check-1" />
+          </label>
+          <label for="check"
+            >two
+            <input type="checkbox" name="check" value="check-2" />
+          </label>
+
+          <label for="radio"
+            >one
+            <input type="radio" name="radio-check" value="radio-1" />
+          </label>
+          <label for="radio"
+            >two
+            <input type="radio" name="radio-check" value="radio-2" />
+          </label>
+          <input type="submit" id="submit"/>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

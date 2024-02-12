@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/022/509/547/small/brown-color-monochrome-empty-background-gradient-banner-illustration-vector.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1,
+h2{
+    text-align: center;
+    font-family: Impact, serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+
+.bottom-line {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+  }
+
+.flavor,
+.dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.item  {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+/*Footer*/
+footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
+
+
+footer a:hover{
+    color: brown;
+}
+
+footer a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
